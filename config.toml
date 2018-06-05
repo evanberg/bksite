@@ -1,0 +1,5 @@
+baseURL = "http://localhost:1313"
+theme = "one"
+languageCode = "en-US"
+title = "Eric Van Berg"
+
