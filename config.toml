@@ -1,5 +1,5 @@
-baseURL = "example.com"
-title = "Manis"
+baseURL = "ericvanberg.com"
+title = "Eric Van Berg"
 theme = "manis"
 
 # Copyright notice. Note: You can use HTML tag here
@@ -49,7 +49,7 @@ pygmentsUseClasses = true
 	sub404 = "Back to <a href='/'>Home</a>."
 
 	# Color of your website's accent
-	colorTheme = "#ff8181"
+	colorTheme = "#5eb54f"
 	# Maximum number of item in Latest Posts or Works
 	latestCount = 3
 	# Path to site's favicon image
