@@ -1,13 +1,12 @@
 <nav class="bar">
 	<ul>
-		{{- if not .IsHome -}}
 		<li>
 			<a href="/">
-				Eric Van Berg
+				{{ .Site.Title }}
 			</a>
 		</li>
 		<li>//</li>
-		{{- end -}}
+
 		{{- range .Site.Menus.main -}}
 		<li><a href="{{ .URL }}">{{ .Name | title }}</a></li>
 		{{- end -}}

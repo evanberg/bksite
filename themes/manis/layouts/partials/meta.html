@@ -1,4 +1,5 @@
 	<head>
+
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		{{ .Hugo.Generator }}
@@ -8,7 +9,11 @@
 		{{ with .Site.Params.FaviconImg }}
 		<link rel="shortcut icon" href="{{.}}">
 		{{ end }}
-		
+
+		{{ with .OutputFormats.Get "rss" -}}
+    		{{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
+		{{ end -}}
+
 		{{ if .Site.Params.DebugCSS }}
 		<link rel="stylesheet" href="/css/normalize.css"/>
 		<link rel="stylesheet" href="/css/ui.css"/>

@@ -1,6 +1,6 @@
 +++
 title = "(Hu)go Template Primer"
-description = ""
+description = "this is a description"
 tags = [
     "go",
     "golang",
