@@ -1,8 +1,16 @@
----
-title: "Da Vinci Process"
-date: 2018-05-11T15:52:27-05:00
-draft: true
----
++++
+title = "DaVinci Process"
+description = "this is a description"
+tags = [
+    "go",
+    "golang",
+    "templates",
+    "themes",
+    "development",
+]
+date = "2014-04-02"
+draft = true
++++
 
 The key to being a bsa is thinking like davinci.  I was at a conference and they reminded me of a book I read years ago 
 

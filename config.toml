@@ -67,7 +67,7 @@ pygmentsUseClasses = true
 	github = "https://github.com/yursan9/"
 	twitter = "https://twitter.com/yuri_boya"
 
-
+includeNewer=true
 # Language Configuration
 #[languages.in]
 #	lang = "in"
